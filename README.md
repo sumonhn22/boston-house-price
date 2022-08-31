@@ -1,4 +1,4 @@
-# End to end Ml implementation of Boston house price prediction
+# End to End ML implementation of Boston house price prediction
 
 ### Steps for this projects:
 
