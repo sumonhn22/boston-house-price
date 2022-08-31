@@ -3,16 +3,17 @@
 ### Steps for this projects:
 
 Step 1. Push into github: create git repository in same name by adding README file, .gitignore in python, Apache License 2.0 
-        clone the folder in local directory: git clone .......
+        clone the folder in local directory: ``` git clone ....... ```
 
 Step 2. Open the dir in VS code for ML implementation:
         Preparing dataset and finalize model trianing, Save model in pkl file
 
-Step 3. Create new env: ``` conda create -p venv python==3.7 --y ```
+Step 3. Create new env: ``` conda create -p venv python==3.7 --y ``` and 
           ``` conda activate ......  ```
           
 Step 4. Create requirement file, run essential package:  ``` pip install -r requirements.txt ```
 
+### Push into Github
 ```
 git add .
 git commit -m " massage "
@@ -20,7 +21,7 @@ git push origin main
 ```
 Step 5. Create home.html file in template folder for front end 
 
-Step 6. Create app.py for Flask web application 
+Step 6. Create ``` app.py ``` for Flask web application 
         Cheack the apps in localhost so run: ``` python app.py ```
 
 ### Deploy in Heroku 
@@ -40,8 +41,8 @@ Step 6. Create app.py for Flask web application
             HEROKU_EMAIL,   Value: email for heroku
             HEROKU_APP_NAME,  value: app name form heroku
 
-### Now push all changes in github and Go your app in heroku app.
+-- Finally, push all changes in github and Go your app in heroku app.
 
 
 
-Details: https://www.youtube.com/watch?v=MJ1vWb1rGwM
+For details go: https://www.youtube.com/watch?v=MJ1vWb1rGwM
